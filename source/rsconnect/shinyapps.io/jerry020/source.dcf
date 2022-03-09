@@ -1,0 +1,13 @@
+name: source
+title: source
+username:
+account: jerry020
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5818336
+bundleId: 5663697
+url: https://jerry020.shinyapps.io/source/
+when: 1646862236.43055
+lastSyncTime: 1646862236.43056
+asMultiple: FALSE
+asStatic: FALSE

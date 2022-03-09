@@ -2,10 +2,10 @@
 # Author: Brendan Keane
 # Purpose: User interface for INFO 201 final deliverable
 
-<<<<<<< HEAD
-=======
+
+
 # setwd("/Users/jibson/Desktop/info201/final-project-starter-foood/source")
->>>>>>> 065b9296bd5c1280d0a4e946b1b4e90f8a249a2c
+
 # Libraries
 
 library("leaflet")
@@ -34,3 +34,4 @@ ui <- fluidPage(
     report_tab
   )
 )
+
