@@ -4,7 +4,17 @@
 
 
 
+
 # setwd("/Users/jibson/Desktop/info201/final-project-starter-foood/source")
+
+# Libraries
+library("rsconnect")
+library("dplyr")
+library("rgeos")
+library("rworldmap")
+library("tidyr")
+library("ggplot2")
+
 
 # Libraries
 
@@ -14,12 +24,12 @@ library("plotly")
 library("shinythemes")
 
 # Source Files
-source("../source/tab_intro.R")
-source("../source/tab_vis1.R")
-source("../source/tab_vis2.R")
-source("../source/tab_vis3.R")
-source("../source/tab_vis4.R")
-source("../source/tab_report.R")
+source("tab_intro.R")
+source("tab_vis1.R")
+source("tab_vis2.R")
+source("tab_vis3.R")
+source("tab_vis4.R")
+source("tab_report.R")
 
 # Full ui
 ui <- fluidPage(

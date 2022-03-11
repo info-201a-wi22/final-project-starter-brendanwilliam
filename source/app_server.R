@@ -15,7 +15,7 @@ library(tidyverse)
 library(ExPanDaR)
 
 # Source files
-source("../source/data_access.R")
+source("data_access.R")
   
 server <- function(input, output, session) {
   
@@ -112,12 +112,7 @@ server <- function(input, output, session) {
       geom_smooth(mapping = aes(x = global_foodcovid_data$Animal.Products, 
                                 y = global_foodcovid_data$Vegetal.Products,
                                 ))
-    
-    
   )
-
-global_food_df <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-foood/main/data/global_food_and_covid.csv")
-View(global_food_df)
 }
 
   

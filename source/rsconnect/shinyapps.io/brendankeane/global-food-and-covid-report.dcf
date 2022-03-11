@@ -1,0 +1,13 @@
+name: global-food-and-covid-report
+title: global-food-and-covid-report
+username:
+account: brendankeane
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5818265
+bundleId: 5663853
+url: https://brendankeane.shinyapps.io/global-food-and-covid-report/
+when: 1646864591.48953
+lastSyncTime: 1646864591.48955
+asMultiple: FALSE
+asStatic: FALSE
