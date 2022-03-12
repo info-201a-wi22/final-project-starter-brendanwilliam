@@ -18,7 +18,7 @@ sidepanel <- sidebarPanel(
     choices = list("Vegetable Products" = "Vegetal.Products",
                    "Animal Products" = "Animal.Products",
                    "Animal Fats" = "Animal.fats",
-                   "Sugars and Sweeteners" = "Sugar...Sweeteners",
+                   "Sugar" = "Sugar...Sweeteners",
                    "Legumes (Beans, Chickpeas, Lentils, etc)" = "Pulses",
                    "Cereals" = "Cereals...Excluding.Beer"),
     selected = "Vegetal.Products"

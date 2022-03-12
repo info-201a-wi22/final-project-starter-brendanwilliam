@@ -24,7 +24,7 @@ vis3_tab <- tabPanel(
                   choices = list(
                     "Country"=Country_Region
                   ),
-                  selected = "Vanuatu"),
+                  selected = "Vanuatu "),
     ),
     mainPanel(
       plotlyOutput("chart2"),
