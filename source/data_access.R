@@ -19,7 +19,7 @@ get_covid_data <- function() {
 
 get_food_data <- function() {
   # Loading global food supply in kg
-  global_food_data <- read.csv("https://storage.googleapis.com/kagglesdsdata/datasets/618335/1108595/Food_Supply_Quantity_kg_Data.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20220309%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220309T225008Z&X-Goog-Expires=259199&X-Goog-SignedHeaders=host&X-Goog-Signature=8eeaf1ba4c75ea0b4e7e1e053b48755af9c80642a8233b7950f8a54a5f793d65da0c676a77d24b417ed93f40aa3014b2a7aeaa3d8f56badbe2d74a50a5500c24cb1d99a4d2530aeb4bbf3bf25072a2e06dc1b9a64ab9afa9c86eeffa1d57f5f053854da299ae43ce8026993e1db612acc818ce021c8b43178e7ddf4338b930d22b358a9d47842c7b3af5747c255026b69baa1d2bf82b09124bef034a6c5d1f0a5d43c1df45da29fcff71e26a011e70c67855ae585d1b175b5a2cca51e2e77e71146fe81cf79133571501a8142384c2787d385616a3ab0848daad8586c3962d96a86e57b6a233f8c7e2c056f9afbb8ef052f0e248e79f4bdfe6dcc702766d8e46")
+  global_food_data <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-foood/main/data/Food_Supply_Quantity_kg_Data.csv")
   
   return(global_food_data)
 }

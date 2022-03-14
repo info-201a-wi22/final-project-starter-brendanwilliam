@@ -97,8 +97,6 @@ server <- function(input, output, session) {
       geom_point(aes(x = country_deaths, y = .data[[input$x_var]]))
     plot
   })
-  
-  
 }
 
 

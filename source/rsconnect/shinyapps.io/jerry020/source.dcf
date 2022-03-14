@@ -5,9 +5,9 @@ account: jerry020
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5818336
-bundleId: 5663697
+bundleId: 5679466
 url: https://jerry020.shinyapps.io/source/
-when: 1646862236.43055
-lastSyncTime: 1646862236.43056
+when: 1647229408.88404
+lastSyncTime: 1647229408.88412
 asMultiple: FALSE
 asStatic: FALSE
